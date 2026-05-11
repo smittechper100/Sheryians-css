@@ -1,0 +1,99 @@
+@font-face {
+  font-family: poppins;
+  src: url(./Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  font-family: poppins, sans-serif;
+}
+.main {
+  /* display: flex; */
+  height: 100%;
+  width: auto;
+  background-color: #f9f8f8;
+  padding: 2%;
+  margin: 0% 10%;
+}
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border: 0px solid black;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+.left {
+  background-color: #fbc50b;
+  height: auto;
+  width: 60%;
+  position: relative;
+}
+.right {
+  background-color: #fae8b5;
+  height: auto;
+  width: 40%;
+  position: relative;
+}
+.pokelogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.pokeball {
+  position: absolute;
+  bottom: -27.5%;
+  left: -60px;
+  opacity: 0.2;
+}
+.pikachu {
+  position: absolute;
+  top: 18%;
+  left: -35%;
+  /* transform: translate(-50%, -50%); */
+}
+.menu {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.points {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  /* align-items: center; */
+  position: relative;
+  top: 25%;
+  gap: 10px;
+  margin-left: 9%;
+}
+.text h3 {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.text p {
+  font-size: 12px;
+  font-weight: 400;
+  width: 70%;
+}
+
